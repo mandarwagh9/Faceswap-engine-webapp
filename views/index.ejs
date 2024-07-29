@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Face Swapper</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>AI Face Swapper</h1>
+    <form action="/swap-faces" method="POST" enctype="multipart/form-data">
+        <label for="sourceImage">Source Image:</label>
+        <input type="file" id="sourceImage" name="sourceImage" required>
+        <br>
+        <label for="targetImage">Target Image:</label>
+        <input type="file" id="targetImage" name="targetImage" required>
+        <br>
+        <button type="submit">Swap Faces</button>
+    </form>
+</body>
+</html>
